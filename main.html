@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image to Text Translator</title>
+  <script src="https://cdn.jsdelivr.net/npm/tesseract.js@4.0.2/dist/tesseract.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-------------Heading---------->
+     <h1 style="color:rgb(0, 0, 0);" class="kaushan">Text <span class="headingText ">Extractor</span> </h1>
+     <!-------------Input Section---------->
+     <div class="inputContainer">
+     
+          <input type="file" name="image" id="imageInput" accept="image/*" required>    
+     </div>
+     <!-------------text extraction Section---------->
+     <div >
+        <p><button onclick="extractText()" class="btn1" id="extractButton">Extract Text</button></p>
+        <div 
+         style="display:none;"
+         class="extractedTextSection"
+         id="outputSection">
+           <textarea id="output" placeholder="
+           Extracted text
+            will appear here..."></textarea>
+        </div>
+     </div>
+</body>
+<style>
+
+</style>
+</html>
