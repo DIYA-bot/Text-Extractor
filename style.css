@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merienda:wght@300..900&family=Rancho&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 2rem;
+  background: rgb(247, 245, 245);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.kaushan {
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.headingText{
+background: linear-gradient(135deg,rgb(238, 255, 0),rgb(0, 255, 229));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.headingText2{
+background: linear-gradient(135deg,rgb(137, 92, 241),rgb(50, 150, 237));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.inputContainer{
+     display:flex;
+     align-items:center;
+     gap:0.5rem;
+}
+.inputContainer input{
+     margin-left:5px; 
+     margin-top: 5px;                            
+     height:2.5rem;
+     width:12rem;
+     font-family:Verdana, sans-serif;
+     outline:none;
+     border:none;
+     border-radius:10px;
+     background:linear-gradient(to right,rgb(162, 53, 240),rgb(185, 101, 245));
+     transition:ease-in-out 1s;
+}
+.inputContainer input:hover{
+border-bottom-right-radius:10px;
+border-bottom-left-radius: 2px;
+border-top-right-radius:2px;
+border-top-left-radius:20px;
+background:linear-gradient(to right,rgb(108, 120, 248),rgb(65, 65, 193));
+}
+.mode-label{margin-top: 1rem;}
+
+.inputContainer input::placeholder{
+color:rgb(0, 0, 0);
+font-style:italic;
+text-align:center;
+font-size:medium;
+}
+.btn1{
+     width:8rem;
+     height: 1.5rem;
+     background:linear-gradient(120deg,
+     rgb(112, 117, 240),
+     rgb(58, 70, 246));
+     border:none;
+     border-radius: 10px;
+     margin:1rem 19rem;
+     color:black;
+     box-shadow:0 0.25rem 0.5rem rgb(42, 41, 41)
+}
+.btn1:hover{
+    background:linear-gradient(135deg,rgb(10, 25, 235),rgb(24, 31, 230)); 
+}
+img {
+      max-width: 300px;
+      margin-top: 10px;
+    }
